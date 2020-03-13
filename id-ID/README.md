@@ -4563,7 +4563,7 @@ console.log(counter.#number)
 
 #### Jawaban: D
 
-In ES2020, we can add private variables in classes by using the `#`. We cannot access these variables outside of the class. When we try to log `counter.#number`, a SyntaxError gets thrown: we cannot acccess it outside the `Counter` class!
+Pada ES2020, kita bisa menambahkan _variable private_ didalam _class_ dengan menggunakan `#`. Kita tidak dapat mengakses _variable_ tersebut diluar _class_. Ketika kita mencoba untuk melakukan _log_ `counter.#number`, sebuah _SyntaxError_ bertuliskan _"we cannot acccess it outside the `Counter` class!"_ muncul.
 
 </p>
 </details>
